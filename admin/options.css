@@ -1,0 +1,58 @@
+.jolilipress {
+	border:1px solid #f2f2f2;
+	border-radius:10px;
+	background-color:#f9f9f9;
+}
+
+.jolilipress td {
+	padding:20px;
+	border-bottom:1px solid #f2f2f2;
+}
+
+.jolilipress tr td:first-child {
+	width:150px;
+	font-size: 16px;
+    line-height: 22px;
+}
+
+.jolilipress tr:nth-child(odd) td {
+	background-color:#fff;
+}
+
+.jolilipress textarea, .jolilipress input, .jolilipress select {
+    padding: 10px;
+    width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.jolilipress textarea, .jolilipress input {
+	max-width:700px;
+}
+
+.jolilipress select {
+    max-width: 200px;
+    height: 40px;
+}
+
+#wptuts_logo {
+	display:none;
+}
+
+.jolilipress .logo img {
+	float:left;
+}
+
+.jolilipress .button-upload {
+	width:150px;
+	height:40px;
+}
+
+.jolilipress .logo img, .jolilipress .button-upload {
+	margin-right:10px;
+}
+
+.jolilipress .remove-btn {
+	display:none;
+	color:#971111;
+}
